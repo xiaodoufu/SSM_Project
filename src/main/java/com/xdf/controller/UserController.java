@@ -21,7 +21,7 @@ public class UserController {
 
     // @Resource(name = "myUserService")// 按照属性名称进行匹配
     @Autowired
-    //@Qualifier("myUserService")
+    //@Qualifier("myUserService") 哈哈你看不到我
     private UserService userService;
 
     @RequestMapping("/login")
